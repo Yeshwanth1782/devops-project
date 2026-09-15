@@ -1,0 +1,27 @@
+# Build output
+target/
+*.class
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Kubernetes
+*.secret.yaml
